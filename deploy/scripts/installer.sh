@@ -1214,7 +1214,7 @@ then
     #     fi
     # fi
 
-    az login --service-principal --username $ARM_CLIENT_ID --password=$ARM_CLIENT_SECRET --tenant $ARM_TENANT_ID  --output none
+###amach    az login --service-principal --username $ARM_CLIENT_ID --password=$ARM_CLIENT_SECRET --tenant $ARM_TENANT_ID  --output none
 
     rg_name=$(terraform -chdir="${terraform_module_directory}"  output -no-color -raw created_resource_group_name | tr -d \")
 
