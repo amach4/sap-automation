@@ -1,5 +1,7 @@
 #!/bin/bash
 
+amach - 23-08-2023
+
 #colors for terminal
 boldreduscore="\e[1;4;31m"
 boldred="\e[1;31m"
