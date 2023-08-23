@@ -1,6 +1,6 @@
 #!/bin/bash
 
-amach - 22-08-2023
+# amach - 22-08-2023
 
 #
 # configure_deployer.sh
